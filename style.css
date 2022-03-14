@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(Nunito.ttf);
+}
 :root {
     overflow: auto;
 }
@@ -32,6 +36,7 @@ img, .img {
 .halfname {
     display:none;
 }
+<<<<<<< HEAD
 body > div {
     margin-left: auto;
     margin-right: auto;
@@ -48,6 +53,8 @@ body > div {
         width: 70%;
     }
 }
+=======
+>>>>>>> kohai
 h2 {
     font-size:15px;
     margin-top:0px;
@@ -115,4 +122,18 @@ a:hover {
 }
 .spotify {
     background-color: #1DB954;
+}
+@media screen and (max-width:1300px){
+    .halfname {
+        display:inline-block;
+    }
+    .fullname {
+        display:none;
+    }
+    #copy {
+        width: 15%;
+    }
+    body > div {
+        width: 70%;
+    }
 }
