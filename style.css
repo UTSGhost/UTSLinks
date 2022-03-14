@@ -88,6 +88,9 @@ a:hover {
     border-radius: 20px;
     font-size: 12px;
 }
+#nyaa {
+    display: none;
+}
 .twitter {
     background-color: #1DA1F2;
 }
