@@ -36,23 +36,6 @@ img, .img {
 .halfname {
     display:none;
 }
-.malmobile {
-    display:none;
-}
-@media screen and (max-width:1300px){
-    .halfname {
-        display:inline-block;
-    }
-    .fullname {
-        display:none;
-    }
-    .malmobile {
-        display:block;
-    }
-    .mal {
-        display:none;
-    }
-}
 h2 {
     font-size:15px;
     margin-top:0px;
@@ -125,4 +108,18 @@ a:hover {
 }
 .spotify {
     background-color: #1DB954;
+}
+@media screen and (max-width:1300px){
+    .halfname {
+        display:inline-block;
+    }
+    .fullname {
+        display:none;
+    }
+    #copy {
+        width: 15%;
+    }
+    body > div {
+        width: 70%;
+    }
 }
