@@ -41,17 +41,6 @@ body > div {
     margin-right: auto;
     width: 30%;
 }
-@media screen and (max-width:1300px){
-    .halfname {
-        display:inline-block;
-    }
-    .fullname {
-        display:none;
-    }
-    body > div {
-        width: 70%;
-    }
-}
 h2 {
     font-size:15px;
     margin-top:0px;
