@@ -3,7 +3,7 @@
     src: url(Nunito.ttf);
 }
 :root {
-    overflow: auto;
+    overflow-y: scroll;
 }
 body {
     text-align: center;
@@ -108,9 +108,6 @@ a:hover {
 }
 .git {
     background-color: #4078c0;
-}
-.spotify {
-    background-color: #1DB954;
 }
 @media screen and (max-width:1300px){
     .halfname {
