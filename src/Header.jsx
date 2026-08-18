@@ -1,3 +1,5 @@
+import './Header.css';
+
 export default function Header({ isDarkMode, onToggle }) {
     return (
         <header className="main-header">
