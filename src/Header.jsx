@@ -3,11 +3,17 @@ import './Header.css';
 export default function Header({ isDarkMode, onToggle }) {
     return (
         <header className="main-header">
-            <h1>UTSGhost</h1>
+            <div className='header-container'>
+                <a href="#a" className="header-element">About me</a>
+                <a className="header-element">Projects</a>
+                <a className="header-element">Idk what I need</a>
+                <button onClick={onToggle} className="header-element">
+                    {isDarkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
+                </button>
+            </div>
             
-            <button onClick={onToggle} className="theme-toggle">
-                {isDarkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
-            </button>
+
+            
         </header>
     );
 }
